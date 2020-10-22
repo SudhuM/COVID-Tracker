@@ -1,0 +1,15 @@
+.Chart {
+	width: 100%;
+	color: #000;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px;
+}
+
+.Death {
+	background-color: rgba(138, 23, 23, 0.315);
+}
+.Confirmed {
+	background-color: rgb(92, 161, 92, 0.2);
+}

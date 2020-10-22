@@ -1,0 +1,46 @@
+.Card {
+	width: 90%;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin: 30px;
+	padding: 10px 15px;
+	z-index: 200;
+	box-sizing: border-box;
+	box-shadow: 2px 3px 1px #ccc;
+}
+
+.Card h2 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #555;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+.Card p {
+	color: #333;
+	font: inherit;
+	font-size: 17px;
+	letter-spacing: .03rem;
+	line-height: 30px;
+}
+
+.LastUpdate {
+	display: block;
+	color: #767676;
+	font-weight: 500;
+}
+.LastUpdate span {
+	color: green;
+	font-size: 11px;
+	letter-spacing: 0.02rem;
+}
+
+.Confirmed {
+	border-bottom: 8px solid rgb(255, 255, 0, 0.8);
+}
+.Recovered {
+	border-bottom: 8px solid rgb(0, 255, 0, 0.8);
+}
+.Death {
+	border-bottom: 8px solid rgb(255, 0, 0, 0.8);
+}

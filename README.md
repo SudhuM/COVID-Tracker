@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## API for COVID dataset
+An open API - [mathdro](https://covid19.mathdro.id/api)
+
 ## Available Scripts
 
 In the project directory, you can run:
