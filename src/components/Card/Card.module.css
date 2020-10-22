@@ -35,6 +35,9 @@
 	letter-spacing: 0.02rem;
 }
 
+.footerText {
+	text-transform: capitalize;
+}
 .Confirmed {
 	border-bottom: 8px solid rgb(255, 255, 0, 0.8);
 }

@@ -31,7 +31,7 @@ const Card = (props) => {
 			<small className={classes.LastUpdate}>
 				Last Updated : <span>{new Date(props.lastUpdate).toDateString()}</span>
 			</small>
-			<p>{textToDisplay[props.title.toLowerCase()].text}</p>
+			<p className={classes.footerText}>{textToDisplay[props.title.toLowerCase()].text}</p>
 		</div>
 	);
 };

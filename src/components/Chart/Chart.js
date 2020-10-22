@@ -1,7 +1,6 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import classes from './Chart.module.css';
-import cx from 'classnames';
 
 const chart = (props) => {
 	const chartLegend = {
